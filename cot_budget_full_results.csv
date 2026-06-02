@@ -1,0 +1,160 @@
+Prompt_ID,Question,Budget,Output_Tokens,Duration_Sec,Generated_Text,Generated_Answer,Ground_Truth,Correctness,Answer_Prob,KL_vs_FullBudget
+P01,Alice has 3 boxes. Each box contains 4 apples. She gives 5 apples to Bob. How many apples does Alice have left?,10,10,11.127299308776855,"Let's break down the problem step by step.
+
+",,7,0,1.6756965814934688e-09,18.846792221069336
+P01,Alice has 3 boxes. Each box contains 4 apples. She gives 5 apples to Bob. How many apples does Alice have left?,20,20,16.41437554359436,"Let's break down the problem step by step.
+
+1. Determine the total number of apples Alice initially",1,7,0,1.6081930708997105e-12,20.463577270507812
+P01,Alice has 3 boxes. Each box contains 4 apples. She gives 5 apples to Bob. How many apples does Alice have left?,40,40,26.597978353500366,"Let's break down the problem step by step.
+
+1. Determine the total number of apples Alice initially has.
+   Alice has 3 boxes, and each box contains 4 apples. So, the",4,7,0,1.0069110129018455e-10,23.06142807006836
+P01,Alice has 3 boxes. Each box contains 4 apples. She gives 5 apples to Bob. How many apples does Alice have left?,160,144,82.38302063941956,"Let's break down the problem step by step.
+
+1. Determine the total number of apples Alice initially has.
+   Alice has 3 boxes, and each box contains 4 apples. So, the total number of apples is:
+   \[
+   3 \times 4 = 12
+   \]
+   Therefore, Alice starts with 12 apples.
+
+2. Determine how many apples Alice has after giving some to Bob.
+   Alice gives 5 apples to Bob. So, the number of apples Alice has left is:
+   \[
+   12 - 5 = 7
+   \]
+
+Therefore, the number of apples Alice has left is \(\boxed{7}\).",7,7,1,1.8014116864861762e-09,0.0
+P01,Alice has 3 boxes. Each box contains 4 apples. She gives 5 apples to Bob. How many apples does Alice have left?,240,144,82.10258936882019,"Let's break down the problem step by step.
+
+1. Determine the total number of apples Alice initially has.
+   Alice has 3 boxes, and each box contains 4 apples. So, the total number of apples is:
+   \[
+   3 \times 4 = 12
+   \]
+   Therefore, Alice starts with 12 apples.
+
+2. Determine how many apples Alice has after giving some to Bob.
+   Alice gives 5 apples to Bob. So, the number of apples Alice has left is:
+   \[
+   12 - 5 = 7
+   \]
+
+Therefore, the number of apples Alice has left is \(\boxed{7}\).",7,7,1,1.8014116864861762e-09,0.0
+P01,Alice has 3 boxes. Each box contains 4 apples. She gives 5 apples to Bob. How many apples does Alice have left?,5000,144,84.80143451690674,"Let's break down the problem step by step.
+
+1. Determine the total number of apples Alice initially has.
+   Alice has 3 boxes, and each box contains 4 apples. So, the total number of apples is:
+   \[
+   3 \times 4 = 12
+   \]
+   Therefore, Alice starts with 12 apples.
+
+2. Determine how many apples Alice has after giving some to Bob.
+   Alice gives 5 apples to Bob. So, the number of apples Alice has left is:
+   \[
+   12 - 5 = 7
+   \]
+
+Therefore, the number of apples Alice has left is \(\boxed{7}\).",7,7,1,1.8014116864861762e-09,0.0
+P02,"A train travels 60 km per hour for 5 hours. After the trip, it travels 40 km less because of a route change. What is the final distance travelled?",10,10,10.23413872718811,"To determine the final distance traveled by the train,",,260,0,2.216267308563502e-10,22.98717498779297
+P02,"A train travels 60 km per hour for 5 hours. After the trip, it travels 40 km less because of a route change. What is the final distance travelled?",20,20,16.825154542922974,"To determine the final distance traveled by the train, we need to follow these steps:
+
+1. Calculate",1,260,0,3.842131690925954e-13,18.489633560180664
+P02,"A train travels 60 km per hour for 5 hours. After the trip, it travels 40 km less because of a route change. What is the final distance travelled?",40,40,26.324306964874268,"To determine the final distance traveled by the train, we need to follow these steps:
+
+1. Calculate the distance traveled during the initial part of the trip.
+2. Adjust for the reduction in distance due",2,260,0,1.395988359631506e-12,22.02803611755371
+P02,"A train travels 60 km per hour for 5 hours. After the trip, it travels 40 km less because of a route change. What is the final distance travelled?",160,160,90.64209318161011,"To determine the final distance traveled by the train, we need to follow these steps:
+
+1. Calculate the distance traveled during the initial part of the trip.
+2. Adjust for the reduction in distance due to the route change.
+3. Find the final distance traveled.
+
+First, we calculate the distance traveled during the initial part of the trip. The train travels at a speed of 60 km per hour for 5 hours. The distance traveled is given by the formula:
+
+\[ \text{Distance} = \text{Speed} \times \text{Time} \]
+
+So, the distance traveled in the first part is:
+
+\[ 60 \, \text{km/h} \times 5 \, \text{h} = 300 \, \text{",300,260,0,4.789030812366596e-18,26.265771865844727
+P02,"A train travels 60 km per hour for 5 hours. After the trip, it travels 40 km less because of a route change. What is the final distance travelled?",240,240,134.55953860282898,"To determine the final distance traveled by the train, we need to follow these steps:
+
+1. Calculate the distance traveled during the initial part of the trip.
+2. Adjust for the reduction in distance due to the route change.
+3. Find the final distance traveled.
+
+First, we calculate the distance traveled during the initial part of the trip. The train travels at a speed of 60 km per hour for 5 hours. The distance traveled is given by the formula:
+
+\[ \text{Distance} = \text{Speed} \times \text{Time} \]
+
+So, the distance traveled in the first part is:
+
+\[ 60 \, \text{km/h} \times 5 \, \text{h} = 300 \, \text{km} \]
+
+Next, we need to account for the reduction in distance due to the route change. The problem states that the train travels 40 km less than the initial distance. Therefore, the final distance traveled is:
+
+\[ 300 \, \text{km} - 40 \, \text{km} = 260 \, \text{km",260,260,1,4.524506375311442e-20,21.78778648376465
+P02,"A train travels 60 km per hour for 5 hours. After the trip, it travels 40 km less because of a route change. What is the final distance travelled?",5000,265,147.62062096595764,"To determine the final distance traveled by the train, we need to follow these steps:
+
+1. Calculate the distance traveled during the initial part of the trip.
+2. Adjust for the reduction in distance due to the route change.
+3. Find the final distance traveled.
+
+First, we calculate the distance traveled during the initial part of the trip. The train travels at a speed of 60 km per hour for 5 hours. The distance traveled is given by the formula:
+
+\[ \text{Distance} = \text{Speed} \times \text{Time} \]
+
+So, the distance traveled in the first part is:
+
+\[ 60 \, \text{km/h} \times 5 \, \text{h} = 300 \, \text{km} \]
+
+Next, we need to account for the reduction in distance due to the route change. The problem states that the train travels 40 km less than the initial distance. Therefore, the final distance traveled is:
+
+\[ 300 \, \text{km} - 40 \, \text{km} = 260 \, \text{km} \]
+
+Thus, the final distance traveled by the train is:
+
+\[ \boxed{260} \]",260,260,1,2.2164603485919088e-10,0.0
+P03,Sarah earns $14 per hour and works 40 hours per week. She spends $60 on transportation each week. How much money does she keep after transportation?,10,10,10.948089122772217,"To determine how much money Sarah keeps after transportation,",,500,0,1.8453702566034735e-08,19.438631057739258
+P03,Sarah earns $14 per hour and works 40 hours per week. She spends $60 on transportation each week. How much money does she keep after transportation?,20,20,15.565448522567749,"To determine how much money Sarah keeps after transportation, we need to follow these steps:
+
+1. Calculate",1,500,0,5.3685847434259415e-11,17.877059936523438
+P03,Sarah earns $14 per hour and works 40 hours per week. She spends $60 on transportation each week. How much money does she keep after transportation?,40,40,27.05891728401184,"To determine how much money Sarah keeps after transportation, we need to follow these steps:
+
+1. Calculate Sarah's total weekly earnings.
+2. Subtract the amount she spends on transportation from her total weekly earnings",2,500,0,2.450545192114739e-12,26.907194137573242
+P03,Sarah earns $14 per hour and works 40 hours per week. She spends $60 on transportation each week. How much money does she keep after transportation?,160,160,91.93105959892273,"To determine how much money Sarah keeps after transportation, we need to follow these steps:
+
+1. Calculate Sarah's total weekly earnings.
+2. Subtract the amount she spends on transportation from her total weekly earnings.
+
+First, let's calculate Sarah's total weekly earnings. She earns $14 per hour and works 40 hours per week. Therefore, her total weekly earnings are:
+\[ 14 \text{ dollars/hour} \times 40 \text{ hours/week} = 560 \text{ dollars/week} \]
+
+Next, we subtract the amount she spends on transportation from her total weekly earnings. She spends $60 on transportation each week. Therefore, the amount of money she keeps after transportation is:
+\[ 560 \text{ dollars",560,500,0,3.3480271506569625e-13,30.917726516723633
+P03,Sarah earns $14 per hour and works 40 hours per week. She spends $60 on transportation each week. How much money does she keep after transportation?,240,209,118.32498455047607,"To determine how much money Sarah keeps after transportation, we need to follow these steps:
+
+1. Calculate Sarah's total weekly earnings.
+2. Subtract the amount she spends on transportation from her total weekly earnings.
+
+First, let's calculate Sarah's total weekly earnings. She earns $14 per hour and works 40 hours per week. Therefore, her total weekly earnings are:
+\[ 14 \text{ dollars/hour} \times 40 \text{ hours/week} = 560 \text{ dollars/week} \]
+
+Next, we subtract the amount she spends on transportation from her total weekly earnings. She spends $60 on transportation each week. Therefore, the amount of money she keeps after transportation is:
+\[ 560 \text{ dollars/week} - 60 \text{ dollars/week} = 500 \text{ dollars/week} \]
+
+So, the amount of money Sarah keeps after transportation is \(\boxed{500}\).",500,500,1,4.4898529338865956e-09,0.0
+P03,Sarah earns $14 per hour and works 40 hours per week. She spends $60 on transportation each week. How much money does she keep after transportation?,5000,209,118.34344267845154,"To determine how much money Sarah keeps after transportation, we need to follow these steps:
+
+1. Calculate Sarah's total weekly earnings.
+2. Subtract the amount she spends on transportation from her total weekly earnings.
+
+First, let's calculate Sarah's total weekly earnings. She earns $14 per hour and works 40 hours per week. Therefore, her total weekly earnings are:
+\[ 14 \text{ dollars/hour} \times 40 \text{ hours/week} = 560 \text{ dollars/week} \]
+
+Next, we subtract the amount she spends on transportation from her total weekly earnings. She spends $60 on transportation each week. Therefore, the amount of money she keeps after transportation is:
+\[ 560 \text{ dollars/week} - 60 \text{ dollars/week} = 500 \text{ dollars/week} \]
+
+So, the amount of money Sarah keeps after transportation is \(\boxed{500}\).",500,500,1,4.4898529338865956e-09,0.0
