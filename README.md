@@ -2,7 +2,7 @@
 
 > A minimal mechanistic interpretability experiment testing whether Chain-of-Thought tokens actively drive answer formation or simply explain a decision already made.
 
----
+-----
 
 ## The Core Question
 
@@ -10,7 +10,7 @@ When a language model generates a chain-of-thought, do those intermediate tokens
 
 This repository operationalizes that question as a controlled perturbation experiment.
 
----
+-----
 
 ## Theoretical Background
 
@@ -20,7 +20,7 @@ There are two competing hypotheses:
 
 **Post-Hoc Rationalization:** The answer distribution resolves early — driven by the problem context, not the accumulated reasoning tokens. Subsequent tokens are formatting convention. Truncating them should produce little measurable effect.
 
----
+-----
 
 ## Experimental Design
 
