@@ -24,7 +24,7 @@ There are two competing hypotheses:
 
 ## Experimental Design
 
-The script runs `Qwen/Qwen2.5-Math-1.5B-Instruct` under **greedy decoding** (`do_sample=False`). Greedy decoding is essential: it makes the generation trajectory deterministic, so the only variable across runs is how many tokens the model is allowed to produce before we cut it off.
+The experiment runs `Qwen/Qwen2.5-Math-1.5B-Instruct` under **greedy decoding** (`do_sample=False`). Greedy decoding is essential: it makes the generation trajectory deterministic, so the only variable across runs is how many tokens the model is allowed to produce before we cut it off.
 
 **Token budgets:** `[10, 20, 40, 160, 240, 5000]`
 
