@@ -1,6 +1,6 @@
 # 1. Installing the environment
 !pip install -q transformers accelerate pandas numpy scipy matplotlib torch
-# 2. Importing & Config files
+# 2. Importing & Config required files
 import re
 import time
 import random
